@@ -27,3 +27,33 @@ The payload is passed in the format :
 ```
 
 Only the attributes that require to be changed are passed table-wise
+
+## Demonstration
+
+The python script can be run as `python app.py` on `PORT 5000`
+
+`gcbm.db` has a table `sample` on which the API has been tested.
+
+The initial attributes/headers are `id`, `A_before`, `B_before`, `C_before`, `D_before`
+
+JSON body of the POST request : 
+```
+{
+    "sample" : {
+        "A_before" : "A_after",
+        "B_before" : "B_after",
+        "C_before" : "C_after",
+        "D_before" : "D_after"
+    }
+}
+```
+
+The API has been tested in Postman, it it passed as :
+
+![image](https://user-images.githubusercontent.com/53875297/168005450-18885bf1-7dbf-4bd4-967c-58cd06aee992.png)
+
+The response is the old and new schemas of the table : 
+
+![image](https://user-images.githubusercontent.com/53875297/168005589-9949445e-f4a6-44e9-bc7c-e84889fd7bef.png)
+
+
