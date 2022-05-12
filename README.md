@@ -2,7 +2,7 @@
 
 This repository demonstrates a sample API endpoint to configure the input tables as required to run the GCBM simulation
 
-The idea used here is to enforce a one-to-one mapping between the user tables and the tables required for the configuration. 
+The idea is to enforce a one-to-one mapping between the user tables and the tables required for the configuration, hence any attribute names that have to be changed are accepted.
 
 The user will provided information about the tables, their attributes and functionalities in a format similar to [this PR](https://moja-global-documentation--179.org.readthedocs.build/en/179/Understanding-FLINT/FLINT-Inputs/tables.html)
 
