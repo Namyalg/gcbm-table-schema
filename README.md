@@ -48,6 +48,8 @@ JSON body of the POST request :
 }
 ```
 
+### Changing all attribute names 
+
 The API has been tested in Postman, it it passed as :
 
 ![image](https://user-images.githubusercontent.com/53875297/168005450-18885bf1-7dbf-4bd4-967c-58cd06aee992.png)
@@ -55,5 +57,17 @@ The API has been tested in Postman, it it passed as :
 The response is the old and new schemas of the table : 
 
 ![image](https://user-images.githubusercontent.com/53875297/168005589-9949445e-f4a6-44e9-bc7c-e84889fd7bef.png)
+
+
+### Changing few attribute names
+
+Request payload
+
+![image](https://user-images.githubusercontent.com/53875297/168047702-be2a16ed-a553-41a7-a5d9-29451c9f4f48.png)
+
+Response 
+
+![image](https://user-images.githubusercontent.com/53875297/168048210-aad0444d-4584-4f58-bc11-eaecf3c7f485.png)
+
 
 
