@@ -12,7 +12,8 @@ The API is designed to accept a `POST` method.
 
 The payload is passed in the format : 
 
-```{
+```
+{
     table_name_1 : {
         old_attribute_1 : new_attribute_1,
         old_attribute_2 : new_attribute_2,
